@@ -48,6 +48,25 @@
                             <next>
                               <block type="oled_drawtext" id="151">
                                 <field name="TEXT">like to talk about</field>
+                                <next>
+                                  <block type="oled_setcursor" id="152" inline="true">
+                                    <value name="STARTX">
+                                      <block type="math_number" id="153">
+                                        <field name="NUM">10</field>
+                                      </block>
+                                    </value>
+                                    <value name="STARTY">
+                                      <block type="math_number" id="154">
+                                        <field name="NUM">40</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="oled_drawtext" id="155">
+                                        <field name="TEXT">robot cruelty and</field>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
                               </block>
                             </next>
                           </block>
