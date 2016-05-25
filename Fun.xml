@@ -79,35 +79,44 @@
                                               <block type="oled_drawtext" id="159">
                                                 <field name="TEXT">how YOU can stop it</field>
                                                 <next>
-                                                  <block type="oled_setcursor" id="160" inline="true">
-                                                    <value name="STARTX">
-                                                      <block type="math_number" id="161">
-                                                        <field name="NUM">10</field>
-                                                      </block>
-                                                    </value>
-                                                    <value name="STARTY">
-                                                      <block type="math_number" id="162">
-                                                        <field name="NUM">60</field>
+                                                  <block type="robot_delay" id="169" inline="true">
+                                                    <value name="DELAY">
+                                                      <block type="math_number" id="176">
+                                                        <field name="NUM">5000</field>
                                                       </block>
                                                     </value>
                                                     <next>
-                                                      <block type="oled_drawtext" id="163">
-                                                        <field name="TEXT">visit:</field>
+                                                      <block type="oled_setcursor" id="160" inline="true">
+                                                        <value name="STARTX">
+                                                          <block type="math_number" id="161">
+                                                            <field name="NUM">10</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="STARTY">
+                                                          <block type="math_number" id="162">
+                                                            <field name="NUM">60</field>
+                                                          </block>
+                                                        </value>
                                                         <next>
-                                                          <block type="oled_setcursor" id="164" inline="true">
-                                                            <value name="STARTX">
-                                                              <block type="math_number" id="165">
-                                                                <field name="NUM">10</field>
-                                                              </block>
-                                                            </value>
-                                                            <value name="STARTY">
-                                                              <block type="math_number" id="166">
-                                                                <field name="NUM">70</field>
-                                                              </block>
-                                                            </value>
+                                                          <block type="oled_drawtext" id="163">
+                                                            <field name="TEXT">visit:</field>
                                                             <next>
-                                                              <block type="oled_drawtext" id="167">
-                                                                <field name="TEXT">www.NotReal.com</field>
+                                                              <block type="oled_setcursor" id="164" inline="true">
+                                                                <value name="STARTX">
+                                                                  <block type="math_number" id="165">
+                                                                    <field name="NUM">10</field>
+                                                                  </block>
+                                                                </value>
+                                                                <value name="STARTY">
+                                                                  <block type="math_number" id="166">
+                                                                    <field name="NUM">70</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="oled_drawtext" id="167">
+                                                                    <field name="TEXT">www.NotReal.com</field>
+                                                                  </block>
+                                                                </next>
                                                               </block>
                                                             </next>
                                                           </block>
