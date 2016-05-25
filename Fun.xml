@@ -62,7 +62,7 @@
                                     </value>
                                     <next>
                                       <block type="oled_drawtext" id="155">
-                                        <field name="TEXT">robot cruelty and</field>
+                                        <field name="TEXT">robot cruelty and how</field>
                                       </block>
                                     </next>
                                   </block>
