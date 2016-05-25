@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="oled_color" id="51" x="97" y="31">
-    <field name="OBJECT">GREEN</field>
+    <field name="OBJECT">BLACK</field>
   </block>
 </xml>
