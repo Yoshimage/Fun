@@ -154,11 +154,6 @@
                                                                                                 <field name="NUM">5000</field>
                                                                                               </block>
                                                                                             </value>
-                                                                                            <next>
-                                                                                              <block type="multimedia_displaybmp" id="318">
-                                                                                                <field name="BMP">pepsi.bmp</field>
-                                                                                              </block>
-                                                                                            </next>
                                                                                           </block>
                                                                                         </next>
                                                                                       </block>
@@ -203,5 +198,8 @@
         </next>
       </block>
     </next>
+  </block>
+  <block type="multimedia_displaybmp" id="318" x="168" y="711">
+    <field name="BMP">pepsi.bmp</field>
   </block>
 </xml>
