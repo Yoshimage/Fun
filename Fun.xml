@@ -62,7 +62,26 @@
                                     </value>
                                     <next>
                                       <block type="oled_drawtext" id="155">
-                                        <field name="TEXT">robot cruelty and how</field>
+                                        <field name="TEXT">robot cruelty and</field>
+                                        <next>
+                                          <block type="oled_setcursor" id="156" inline="true">
+                                            <value name="STARTX">
+                                              <block type="math_number" id="157">
+                                                <field name="NUM">10</field>
+                                              </block>
+                                            </value>
+                                            <value name="STARTY">
+                                              <block type="math_number" id="158">
+                                                <field name="NUM">50</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="oled_drawtext" id="159">
+                                                <field name="TEXT">how YOU can stop it</field>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
                                       </block>
                                     </next>
                                   </block>
