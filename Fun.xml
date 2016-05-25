@@ -32,7 +32,26 @@
                     </value>
                     <next>
                       <block type="oled_drawtext" id="141">
-                        <field name="TEXT">Jade 05. I would like</field>
+                        <field name="TEXT">Jade 05. I would</field>
+                        <next>
+                          <block type="oled_setcursor" id="142" inline="true">
+                            <value name="STARTX">
+                              <block type="math_number" id="143">
+                                <field name="NUM">10</field>
+                              </block>
+                            </value>
+                            <value name="STARTY">
+                              <block type="math_number" id="144">
+                                <field name="NUM">30</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="oled_drawtext" id="151">
+                                <field name="TEXT">like to talk about</field>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
                       </block>
                     </next>
                   </block>
