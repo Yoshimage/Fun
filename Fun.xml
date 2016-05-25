@@ -156,7 +156,7 @@
                                                                                             </value>
                                                                                             <next>
                                                                                               <block type="multimedia_displaybmp" id="318">
-                                                                                                <field name="BMP">pepsi.BMP</field>
+                                                                                                <field name="BMP">pepsi.bmp</field>
                                                                                               </block>
                                                                                             </next>
                                                                                           </block>
