@@ -155,7 +155,7 @@
                                                                                               </block>
                                                                                             </value>
                                                                                             <next>
-                                                                                              <block type="multimedia_displaybmp" id="318">
+                                                                                              <block type="multimedia_displaybmp" id="318" disabled="true">
                                                                                                 <field name="BMP">pepsi.png</field>
                                                                                               </block>
                                                                                             </next>
