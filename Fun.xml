@@ -101,7 +101,7 @@
                                                             </value>
                                                             <next>
                                                               <block type="oled_drawtext" id="163">
-                                                                <field name="TEXT">visit:</field>
+                                                                <field name="TEXT">visit us at</field>
                                                                 <next>
                                                                   <block type="oled_setcursor" id="164" inline="true">
                                                                     <value name="STARTX">
