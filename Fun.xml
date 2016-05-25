@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="94" x="101" y="-31">
+  <block type="oled_cleardisplay" id="94" x="132" y="-19">
     <next>
       <block type="oled_setcursor" id="70" inline="true">
         <value name="STARTX">
@@ -155,33 +155,8 @@
                                                                                               </block>
                                                                                             </value>
                                                                                             <next>
-                                                                                              <block type="led_select" id="194" inline="true">
-                                                                                                <field name="ACTION">FLASH</field>
-                                                                                                <value name="LED">
-                                                                                                  <block type="sensor_light" id="217">
-                                                                                                    <field name="LIGHT">LEFT</field>
-                                                                                                  </block>
-                                                                                                </value>
-                                                                                                <next>
-                                                                                                  <block type="led_select" id="220" inline="true">
-                                                                                                    <field name="ACTION">FLASH</field>
-                                                                                                    <value name="LED">
-                                                                                                      <block type="sensor_light" id="221">
-                                                                                                        <field name="LIGHT">RIGHT</field>
-                                                                                                      </block>
-                                                                                                    </value>
-                                                                                                    <next>
-                                                                                                      <block type="led_select" id="218" inline="true">
-                                                                                                        <field name="ACTION">FLASH</field>
-                                                                                                        <value name="LED">
-                                                                                                          <block type="sensor_light" id="219">
-                                                                                                            <field name="LIGHT">REAR</field>
-                                                                                                          </block>
-                                                                                                        </value>
-                                                                                                      </block>
-                                                                                                    </next>
-                                                                                                  </block>
-                                                                                                </next>
+                                                                                              <block type="multimedia_displaybmp" id="318">
+                                                                                                <field name="BMP">pepsi.png</field>
                                                                                               </block>
                                                                                             </next>
                                                                                           </block>
